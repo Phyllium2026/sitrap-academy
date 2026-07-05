@@ -12,43 +12,37 @@ const modulos = [
   {
     numero: "01",
     titulo: "Crear nuevo lote",
-    descripcion:
-      "Registro inicial de un lote en SITRAP, incorporando antecedentes técnicos y trazabilidad desde su creación.",
+    descripcion: "Manual paso a paso para registrar un nuevo lote en SITRAP.",
     href: "/modulo-01/manual",
   },
   {
     numero: "02",
     titulo: "Imprimir QR del lote",
-    descripcion:
-      "Generación e impresión del código QR asociado al lote para su identificación operacional.",
+    descripcion: "Manual para generar e imprimir la etiqueta QR oficial del lote.",
     href: "/modulo-02/manual",
   },
   {
     numero: "03",
     titulo: "Registro de Movimientos del Lote",
-    descripcion:
-      "Registro general de movimientos asociados al lote para mantener su historial actualizado.",
+    descripcion: "Manual para registrar movimientos operacionales mediante QR.",
     href: "/modulo-03/manual",
   },
   {
     numero: "04",
     titulo: "Registro de Movimientos del Lote (Recepción)",
-    descripcion:
-      "Registro de recepción de plantas mediante lectura QR y selección del movimiento correspondiente.",
+    descripcion: "Manual para registrar la recepción de plantas en vivero.",
     href: "/modulo-04/manual",
   },
   {
     numero: "05",
     titulo: "Registro de Movimientos del Lote (EECC)",
-    descripcion:
-      "Registro del despacho de plantas desde Vivero Monte Aranda hacia una Empresa Contratista.",
+    descripcion: "Manual para registrar despachos de plantas hacia EECC.",
     href: "/modulo-05/manual",
   },
   {
     numero: "06",
     titulo: "Impresión Ticket Despacho EECC",
-    descripcion:
-      "Generación e impresión del ticket que acompaña el despacho de plantas hacia la Empresa Contratista.",
+    descripcion: "Manual para generar e imprimir el ticket de despacho.",
     href: "/modulo-06/manual",
   },
 ];
@@ -80,9 +74,7 @@ export default function ManualGeneralPage() {
               </h1>
 
               <p className="mt-2 max-w-4xl text-sm leading-6 text-green-50">
-                Este manual reúne los seis módulos de capacitación operacional
-                de SITRAP Academy, permitiendo acceder de forma ordenada a cada
-                procedimiento paso a paso.
+                Selecciona el manual operativo del módulo que deseas revisar.
               </p>
             </div>
 
@@ -121,7 +113,7 @@ export default function ManualGeneralPage() {
                     </p>
 
                     <div className="mt-4 inline-flex items-center gap-2 text-sm font-black text-green-700">
-                      Ver manual
+                      Ver manual paso a paso
                     </div>
                   </Link>
                 ))}
@@ -137,9 +129,8 @@ export default function ManualGeneralPage() {
                   </div>
 
                   <p className="text-sm leading-6 text-slate-700">
-                    Capacitar al usuario en el uso completo de SITRAP, desde la
-                    creación del lote hasta el despacho a EECC y la impresión
-                    del ticket correspondiente.
+                    Reunir el acceso directo a todos los manuales operativos de
+                    SITRAP Academy.
                   </p>
                 </div>
 
@@ -159,17 +150,6 @@ export default function ManualGeneralPage() {
                     <li>5. Registrar despacho a EECC.</li>
                     <li>6. Imprimir ticket.</li>
                   </ol>
-                </div>
-
-                <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
-                  <h3 className="mb-2 font-black text-slate-950">
-                    Recomendación de uso
-                  </h3>
-
-                  <p className="text-sm leading-6 text-slate-700">
-                    Revisar los módulos en orden, especialmente si el usuario
-                    está siendo capacitado por primera vez en SITRAP Academy.
-                  </p>
                 </div>
               </aside>
             </div>
