@@ -46,7 +46,7 @@ export default function ManualModulo04Page() {
                 <ManualStep
                   numero="01"
                   titulo="Inicio del módulo"
-                  imagen="/manual/modulo-04/modulo04-01-inicio.jpg"
+                  imagen="/Manual/modulo-04/modulo04-01-inicio.jpg"
                   descripcion="Ingresa al módulo de recepción para iniciar el registro del movimiento del lote."
                   consejo="Antes de comenzar, verifica que el lote físico tenga su etiqueta QR disponible."
                   resultado="El módulo queda listo para iniciar la recepción del lote."
@@ -55,7 +55,7 @@ export default function ManualModulo04Page() {
                 <ManualStep
                   numero="02"
                   titulo="Lote identificado"
-                  imagen="/manual/modulo-04/modulo04-02-lote-identificado.jpg"
+                  imagen="/Manual/modulo-04/modulo04-02-lote-identificado.jpg"
                   descripcion="Escanea el código QR del lote para cargar su información en el formulario de movimientos."
                   consejo="La lectura QR evita errores al seleccionar manualmente el lote."
                   resultado="El lote queda identificado correctamente en SITRAP."
@@ -64,7 +64,7 @@ export default function ManualModulo04Page() {
                 <ManualStep
                   numero="03"
                   titulo="Seleccionar movimiento Recepción"
-                  imagen="/manual/modulo-04/modulo04-03-recepcion.jpg"
+                  imagen="/Manual/modulo-04/modulo04-03-recepcion.jpg"
                   descripcion="En el tipo de movimiento, selecciona la opción Recepción en vivero."
                   advertencia="No selecciones Recepción si el movimiento corresponde a traslado, despacho, baja u otra operación."
                   resultado="El sistema reconoce que el movimiento corresponde a una recepción."
@@ -73,7 +73,7 @@ export default function ManualModulo04Page() {
                 <ManualStep
                   numero="04"
                   titulo="Seleccionar vivero de origen"
-                  imagen="/manual/modulo-04/modulo04-04-origen-vivero.jpg"
+                  imagen="/Manual/modulo-04/modulo04-04-origen-vivero.jpg"
                   descripcion="Indica el vivero desde donde proviene el lote que será recibido."
                   consejo="El origen permite mantener la trazabilidad del movimiento entre viveros."
                 />
@@ -81,7 +81,7 @@ export default function ManualModulo04Page() {
                 <ManualStep
                   numero="05"
                   titulo="Seleccionar vivero de destino"
-                  imagen="/manual/modulo-04/modulo04-05-destino-vivero.jpg"
+                  imagen="/Manual/modulo-04/modulo04-05-destino-vivero.jpg"
                   descripcion="Selecciona el vivero donde el lote será recibido operacionalmente."
                   advertencia="El destino debe coincidir con el lugar físico donde ingresa el lote."
                 />
@@ -89,7 +89,7 @@ export default function ManualModulo04Page() {
                 <ManualStep
                   numero="06"
                   titulo="Verificar efecto en stock"
-                  imagen="/manual/modulo-04/modulo04-06-efecto-stock.jpg"
+                  imagen="/Manual/modulo-04/modulo04-06-efecto-stock.jpg"
                   descripcion="Revisa el efecto del movimiento sobre el stock antes de continuar con el registro."
                   consejo="En una recepción, el stock debe quedar asociado correctamente al vivero de destino."
                   resultado="El movimiento queda validado antes de su envío final."
@@ -98,7 +98,7 @@ export default function ManualModulo04Page() {
                 <ManualStep
                   numero="07"
                   titulo="Confirmar registro de recepción"
-                  imagen="/manual/modulo-04/modulo04-07-cierre-registro.jpg"
+                  imagen="/Manual/modulo-04/modulo04-07-cierre-registro.jpg"
                   descripcion="Finaliza el formulario para dejar registrada la recepción del lote en SITRAP."
                   resultado="La recepción queda registrada correctamente y el lote mantiene su trazabilidad operacional."
                 />
