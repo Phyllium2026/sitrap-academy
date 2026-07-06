@@ -36,9 +36,8 @@ export default function ManualModulo06Page() {
               </h1>
 
               <p className="mt-2 max-w-3xl text-sm leading-6 text-green-50">
-                Guía operacional para generar e imprimir correctamente el ticket
-                de despacho que acompañará la entrega de plantas a la Empresa
-                Contratista.
+                Guía operacional para generar e imprimir el ticket de despacho
+                asociado a una entrega de plantas a Empresa Contratista.
               </p>
             </div>
 
@@ -46,43 +45,43 @@ export default function ManualModulo06Page() {
               <div className="space-y-4">
                 <ManualStep
                   numero="01"
-                  titulo="Inicio del módulo"
-                  imagen="/manual/modulo-06/modulo06-01-inicio (1).jpg"
-                  descripcion="Ingresa al módulo de impresión de tickets."
-                  consejo="Verifica que el despacho ya haya sido registrado previamente."
-                  resultado="El sistema queda listo para buscar el ticket."
+                  titulo="Ingresar al módulo"
+                  imagen="/Manual/modulo-06/modulo06-01-inicio (1).jpg"
+                  descripcion="Desde SITRAP, ingresa al módulo de impresión de ticket de despacho."
+                  resultado="El sistema abre la pantalla para generar el ticket."
                 />
 
                 <ManualStep
                   numero="02"
-                  titulo="Buscar ticket de despacho"
-                  imagen="/manual/modulo-06/modulo06-02-ticket-despacho (1).jpg"
-                  descripcion="Busca el despacho utilizando el lote o el ticket correspondiente."
-                  consejo="Selecciona siempre el despacho correcto antes de continuar."
+                  titulo="Generar ticket de despacho"
+                  imagen="/Manual/modulo-06/modulo06-02-ticket-despacho (1).jpg"
+                  descripcion="Selecciona o confirma la información del despacho para generar el ticket correspondiente."
+                  consejo="Verifica que el despacho corresponda a la EECC y contrato correcto."
                 />
 
                 <ManualStep
                   numero="03"
                   titulo="Ticket creado"
-                  imagen="/manual/modulo-06/modulo06-03-ticket-creado.jpg"
-                  descripcion="Verifica que el sistema haya creado correctamente el ticket de despacho."
-                  resultado="El ticket queda disponible para copiar, generar PDF o imprimir."
+                  imagen="/Manual/modulo-06/modulo06-03-ticket-creado.jpg"
+                  descripcion="Revisa la vista generada del ticket antes de imprimir."
+                  advertencia="No imprimas si el contrato, EECC, lote o cantidad no corresponden."
+                  resultado="El ticket queda listo para impresión."
                 />
 
                 <ManualStep
                   numero="04"
-                  titulo="Preparar impresión POS"
-                  imagen="/manual/modulo-06/modulo06-04-pos-printer.jpg"
-                  descripcion="Selecciona la opción de impresión disponible para enviar el ticket a la impresora térmica."
-                  consejo="Antes de imprimir, confirma que la impresora esté conectada y con papel."
+                  titulo="Enviar a POS Printer"
+                  imagen="/Manual/modulo-06/modulo06-04-pos-printer.jpg"
+                  descripcion="Copia o envía el contenido del ticket a la impresora POS configurada."
+                  consejo="Verifica que la impresora térmica esté conectada antes de imprimir."
                 />
 
                 <ManualStep
                   numero="05"
-                  titulo="Ticket impreso"
-                  imagen="/manual/modulo-06/modulo06-05-ticket-impreso.jpg"
-                  descripcion="Confirma que el ticket fue impreso correctamente."
-                  resultado="El ticket queda listo para acompañar el despacho de plantas."
+                  titulo="Verificar ticket impreso"
+                  imagen="/Manual/modulo-06/modulo06-05-ticket-impreso.jpg"
+                  descripcion="Revisa que el ticket impreso sea legible y que contenga la información del despacho."
+                  resultado="El despacho queda respaldado con su ticket físico."
                 />
               </div>
 
@@ -96,8 +95,8 @@ export default function ManualModulo06Page() {
                   </div>
 
                   <p className="text-sm leading-6 text-slate-700">
-                    El ticket queda correctamente generado e impreso para ser
-                    entregado junto con las plantas despachadas.
+                    El ticket de despacho queda generado e impreso correctamente,
+                    respaldando la entrega de plantas a la Empresa Contratista.
                   </p>
                 </div>
 
@@ -110,10 +109,10 @@ export default function ManualModulo06Page() {
                   </div>
 
                   <ul className="space-y-1 text-sm leading-6 text-slate-700">
-                    <li>• Seleccionar un despacho incorrecto.</li>
-                    <li>• Imprimir un ticket desactualizado.</li>
-                    <li>• No verificar la impresora antes de imprimir.</li>
-                    <li>• Entregar plantas sin ticket.</li>
+                    <li>• Imprimir un ticket de un despacho incorrecto.</li>
+                    <li>• No revisar EECC y contrato antes de imprimir.</li>
+                    <li>• Imprimir con papel térmico mal instalado.</li>
+                    <li>• Entregar plantas sin respaldo de ticket.</li>
                   </ul>
                 </div>
 
@@ -127,9 +126,9 @@ export default function ManualModulo06Page() {
 
                   <ul className="space-y-1 text-sm leading-6 text-slate-700">
                     <li>• Revisar el ticket antes de imprimir.</li>
-                    <li>• Confirmar que la impresora tenga papel.</li>
-                    <li>• Imprimir inmediatamente antes del despacho.</li>
-                    <li>• Entregar siempre el ticket junto con las plantas.</li>
+                    <li>• Confirmar EECC, contrato y cantidad.</li>
+                    <li>• Mantener copia o respaldo del despacho.</li>
+                    <li>• Verificar legibilidad del ticket impreso.</li>
                   </ul>
                 </div>
               </aside>
