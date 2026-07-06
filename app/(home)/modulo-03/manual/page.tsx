@@ -43,11 +43,10 @@ export default function ManualModulo03Page() {
 
             <div className="grid gap-5 p-5 lg:grid-cols-[1fr_330px]">
               <div className="space-y-4">
-
                 <ManualStep
                   numero="01"
                   titulo="Ingresar al módulo Registrar Movimiento"
-                  imagen="/manual/modulo-03/paso-01-ingreso.jpg"
+                  imagen="/Manual/modulo-03/paso-01-ingreso.jpg"
                   descripcion="Accede al módulo de movimientos desde la pantalla principal de SITRAP."
                   consejo="Verifica que estés trabajando sobre el vivero correcto."
                   resultado="Formulario de movimientos abierto."
@@ -56,7 +55,7 @@ export default function ManualModulo03Page() {
                 <ManualStep
                   numero="02"
                   titulo="Escanear el código QR"
-                  imagen="/manual/modulo-03/paso-02-qr.jpg"
+                  imagen="/Manual/modulo-03/paso-02-qr.jpg"
                   descripcion="Utiliza la cámara del dispositivo para leer la etiqueta QR del lote."
                   advertencia="Si el QR no puede leerse, reemplaza la etiqueta antes de continuar."
                 />
@@ -64,7 +63,7 @@ export default function ManualModulo03Page() {
                 <ManualStep
                   numero="03"
                   titulo="Confirmar el lote"
-                  imagen="/manual/modulo-03/paso-03-lote.jpg"
+                  imagen="/Manual/modulo-03/paso-03-lote.jpg"
                   descripcion="Verifica que la información cargada corresponda exactamente al lote físico."
                   consejo="Confirma especie, vivero y contenedor."
                 />
@@ -72,7 +71,7 @@ export default function ManualModulo03Page() {
                 <ManualStep
                   numero="04"
                   titulo="Seleccionar el movimiento"
-                  imagen="/manual/modulo-03/paso-04-movimiento.jpg"
+                  imagen="/Manual/modulo-03/paso-04-movimiento.jpg"
                   descripcion="Selecciona el tipo de movimiento que será registrado."
                   advertencia="Escoge siempre el movimiento que realmente se ejecutó."
                 />
@@ -80,7 +79,7 @@ export default function ManualModulo03Page() {
                 <ManualStep
                   numero="05"
                   titulo="Completar la información"
-                  imagen="/manual/modulo-03/paso-05-datos.jpg"
+                  imagen="/Manual/modulo-03/paso-05-datos.jpg"
                   descripcion="Completa los antecedentes solicitados por el formulario."
                   consejo="Revisa toda la información antes de guardar."
                 />
@@ -88,18 +87,16 @@ export default function ManualModulo03Page() {
                 <ManualStep
                   numero="06"
                   titulo="Guardar el movimiento"
-                  imagen="/manual/modulo-03/paso-06-guardar.jpg"
+                  imagen="/Manual/modulo-03/paso-06-guardar.jpg"
                   descripcion="Confirma el registro del movimiento para actualizar la trazabilidad."
                   resultado="Movimiento registrado correctamente en SITRAP."
                 />
-
               </div>
 
               <aside className="space-y-3">
-
                 <div className="rounded-2xl border border-green-200 bg-green-50 p-4">
                   <div className="mb-2 flex items-center gap-2">
-                    <CheckCircle2 size={18} className="text-green-700"/>
+                    <CheckCircle2 size={18} className="text-green-700" />
                     <h3 className="font-black text-slate-950">
                       Resultado esperado
                     </h3>
@@ -113,7 +110,7 @@ export default function ManualModulo03Page() {
 
                 <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
                   <div className="mb-2 flex items-center gap-2">
-                    <AlertTriangle size={18} className="text-amber-600"/>
+                    <AlertTriangle size={18} className="text-amber-600" />
                     <h3 className="font-black text-slate-950">
                       Errores frecuentes
                     </h3>
@@ -129,7 +126,7 @@ export default function ManualModulo03Page() {
 
                 <div className="rounded-2xl border border-slate-200 bg-white p-4">
                   <div className="mb-2 flex items-center gap-2">
-                    <ShieldCheck size={18} className="text-green-700"/>
+                    <ShieldCheck size={18} className="text-green-700" />
                     <h3 className="font-black text-slate-950">
                       Buenas prácticas
                     </h3>
@@ -142,7 +139,6 @@ export default function ManualModulo03Page() {
                     <li>• Mantener las etiquetas QR en buen estado.</li>
                   </ul>
                 </div>
-
               </aside>
             </div>
           </section>
