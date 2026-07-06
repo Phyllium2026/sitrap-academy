@@ -46,7 +46,7 @@ export default function ManualModulo02Page() {
                 <ManualStep
                   numero="01"
                   titulo="Ingresar al módulo de impresión QR"
-                  imagen="/manual/modulo-02/paso-01-acceso-qr.jpg"
+                  imagen="/Manual/modulo-02/paso-01-acceso-qr.jpg"
                   descripcion="Desde la pantalla principal de SITRAP, ingresa a la opción destinada a imprimir o reimprimir la etiqueta QR del lote."
                   consejo="Utiliza esta opción cuando el lote ya fue registrado y necesita ser identificado físicamente."
                   resultado="El sistema abre la pantalla de búsqueda de lotes disponibles para impresión."
@@ -55,7 +55,7 @@ export default function ManualModulo02Page() {
                 <ManualStep
                   numero="02"
                   titulo="Buscar el lote"
-                  imagen="/manual/modulo-02/paso-02-busqueda-lote.jpg"
+                  imagen="/Manual/modulo-02/paso-02-busqueda-lote.jpg"
                   descripcion="Busca el lote utilizando la información disponible, como código, especie, vivero u otro dato que permita identificarlo correctamente."
                   advertencia="Evita seleccionar lotes solo por similitud de nombre. Confirma siempre el código o los datos principales antes de continuar."
                   resultado="El sistema muestra los lotes que coinciden con la búsqueda realizada."
@@ -64,7 +64,7 @@ export default function ManualModulo02Page() {
                 <ManualStep
                   numero="03"
                   titulo="Seleccionar el lote correcto"
-                  imagen="/manual/modulo-02/paso-03-seleccion-lote.jpg"
+                  imagen="/Manual/modulo-02/paso-03-seleccion-lote.jpg"
                   descripcion="Selecciona el lote que corresponde a la etiqueta que necesitas imprimir. Revisa especie, vivero, contenedor y cantidad antes de continuar."
                   consejo="Si existen varios lotes similares, verifica cuidadosamente el identificador del lote antes de generar la etiqueta."
                 />
@@ -72,7 +72,7 @@ export default function ManualModulo02Page() {
                 <ManualStep
                   numero="04"
                   titulo="Revisar la vista previa"
-                  imagen="/manual/modulo-02/paso-04-vista-previa.jpg"
+                  imagen="/Manual/modulo-02/paso-04-vista-previa.jpg"
                   descripcion="Antes de imprimir, revisa la vista previa de la etiqueta QR. Esta debe mostrar correctamente el identificador del lote y la información principal asociada."
                   advertencia="No imprimas si detectas inconsistencias en el código, especie o datos del lote."
                   resultado="La etiqueta queda lista para ser enviada a impresión."
@@ -81,7 +81,7 @@ export default function ManualModulo02Page() {
                 <ManualStep
                   numero="05"
                   titulo="Generar la impresión"
-                  imagen="/manual/modulo-02/paso-05-generar-impresion.jpg"
+                  imagen="/Manual/modulo-02/paso-05-generar-impresion.jpg"
                   descripcion="Presiona la opción de impresión para generar la etiqueta QR. Dependiendo del dispositivo, podrás imprimir directamente o descargar el archivo para impresión."
                   consejo="Verifica que la impresora esté conectada y que el formato de papel sea el correcto antes de imprimir."
                 />
@@ -89,7 +89,7 @@ export default function ManualModulo02Page() {
                 <ManualStep
                   numero="06"
                   titulo="Verificar la etiqueta impresa"
-                  imagen="/manual/modulo-02/paso-06-verificar-etiqueta.jpg"
+                  imagen="/Manual/modulo-02/paso-06-verificar-etiqueta.jpg"
                   descripcion="Una vez impresa, revisa que la etiqueta sea legible, que el QR no esté cortado y que corresponda al lote seleccionado."
                   resultado="El lote queda correctamente identificado con su etiqueta QR oficial y disponible para continuar su trazabilidad operacional."
                 />
